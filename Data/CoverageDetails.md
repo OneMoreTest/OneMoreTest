@@ -1,183 +1,195 @@
-| Method ID  |         | Bug ID    |         | OneMoreTest Coverage at Different Training Set Sizes |
-|------------|---------|----------|---------|------------------------------------------------------|
-|            |         |          |         | Initial | 10,000 | 100,000 | 200,000 | 500,000 | 700,000 | 1M |
-|            |         |          |         |        |        |         |         |         |         |     |
-| M1        | chart_5     | 69      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M2        | chart_7     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M3        | chart_18    | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M4        | chart_21    | 74      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M5        | chart_22    | 91      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M6        | time_3_addYears | 79   | 100   | 100   | 100   | 100   | 100   | 100   |
-| M7        | time_3_addMonths | 83  | 100   | 100   | 100   | 100   | 100   | 100   |
-| M8        | time_3_addWeeks | 82  | 100   | 100   | 100   | 100   | 100   | 100   |
-| M9        | time_7_parseInto | 90  | 100   | 100   | 100   | 100   | 100   | 100   |
-| M10       | time_7_mutableDateTime | 57 | 95  | 95   | 95    | 95    | 95    | 95    |
-| M11       | time_8      | 78      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M12       | time_10     | 83      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M13       | time_14_minusMonths | 73 | 100  | 100   | 100   | 100   | 100   | 100   |
-| M14       | time_14_plusMonths | 58 | 89   | 89    | 89    | 89    | 89    | 89    |
-| M15       | time_15     | 83      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M16       | time_17     | 75      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M17       | time_18     | 68      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M18       | time_22     | 92      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M19       | time_24     | 93      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M20       | time_26     | 94      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M21       | time_27     | 94      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M22       | lang_1      | 55      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M23       | lang_6      | 78      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M24       | lang_7      | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M25       | lang_8      | 65      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M26       | lang_9      | 75      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M27       | lang_11     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M28       | lang_12     | 50      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M29       | lang_17     | 53      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M30       | lang_19     | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M31       | lang_21     | 84      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M32       | lang_22     | 54      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M33       | lang_26     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M34       | lang_27     | 96      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M35       | lang_28     | 98      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M36       | lang_36     | 65      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M37       | lang_38     | 63      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M38       | lang_39     | 81      | 98    | 98    | 98    | 98    | 98    | 98    |
-| M39       | lang_41     | 82      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M40       | lang_43     | 76      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M41       | lang_44     | 94      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M42       | lang_45     | 61      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M43       | lang_46     | 55      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M44       | lang_48     | 78      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M45       | lang_49     | 86      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M46       | lang_53     | 89      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M47       | lang_54     | 98      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M48       | lang_57     | 98      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M49       | lang_58     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M50       | lang_59     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M51       | lang_61     | 96      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M52       | lang_64     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M53       | lang_65     | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M54       | math_4j_1   | 84      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M55       | math_4j_2   | 57      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M56       | math_4j_9   | 92      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M57       | math_4j_10  | 90      | 93    | 100   | 100   | 100   | 100   | 100   |
-| M58       | math_4j_11  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M59       | math_4j_16  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M60       | math_4j_17  | 93      | 93    | 93    | 93    | 93    | 93    | 93    |
-| M61       | math_4j_21  | 84      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M62       | math_4j_26  | 86      | 98    | 98    | 98    | 98    | 98    | 98    |
-| M63       | math_4j_27  | 77      | 98    | 98    | 98    | 98    | 98    | 98    |
-| M64       | math_4j_30  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M65       | math_4j_31  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M66       | math_4j_33  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M67       | math_4j_34  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M68       | math_4j_41  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M69       | math_4j_42  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M70       | math_4j_48  | 87      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M71       | math_4j_49  | 90      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M72       | math_4j_53  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M73       | math_4j_58  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M74       | math_4j_59  | 81      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M75       | math_4j_62  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M76       | math_4j_63  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M77       | math_4j_65  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M78       | math_4j_74  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M79       | math_4j_75  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M80       | math_4j_80  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M81       | math_4j_81  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M82       | math_4j_90  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M83       | math_4j_91  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M84       | math_4j_94  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M85       | math_4j_95  | 75      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M86       | math_4j_96  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M87       | math_4j_97  | 90      | 93    | 93    | 93    | 93    | 93    | 93    |
-| M88       | math_4j_98  | 87      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M89       | math_4j_105 | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M90       | math_4j_106 | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M91       | closure_3   | 92      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M92       | closure_20  | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M93       | closure_23  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M94       | closure_26  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M95       | closure_27  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M96       | closure_37  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M97       | closure_40  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M98       | closure_41  | 94      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M99       | closure_44  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M100      | closure_57  | 96      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M101      | closure_58  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M102      | closure_67  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M103      | closure_68  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M104      | closure_71  | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M105      | closure_85  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M106      | closure_88  | 94      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M107      | closure_91  | 91      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M108      | closure_105 | 91      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M109      | closure_108 | 71      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M110      | closure_109 | 99      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M111      | closure_112 | 74      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M112      | closure_114 | 86      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M113      | closure_116 | 81      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M114      | closure_117 | 97      | 97    | 97    | 97    | 97    | 97    | 97    |
-| M115      | closure_125 | 97      | 97    | 97    | 97    | 97    | 97    | 97    |
-| M116      | closure_126 | 93      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M117      | chart_10    | 98      | 98    | 98    | 98    | 98    | 98    | 98    |
-| M118      | math_4j_85  | 92      | 92    | 92    | 92    | 92    | 92    | 92    |
-| M119      | closure_62  | 91      | 91    | 100   | 100   | 100   | 100   | 100   |
-| M120      | closure_130 | 97      | 97    | 97    | 97    | 97    | 97    | 97    |
-| M121      | time_12     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M122      | lang_52     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M123      | math_4j_88  | 68      | 98    | 98    | 98    | 98    | 98    | 98    |
-| M124      | closure_133 | 95      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M125      | closure_83  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M126      | time_13     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M127      | time_9      | 87      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M128      | lang_24     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M129      | closure_28  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M130      | lang_33     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M131      | lang_60     | 94      | 94    | 94    | 94    | 94    | 94    | 94    |
-| M132      | lang_51     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M133      | lang_62     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M134      | math_4j_22  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M135      | chart_23    | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M136      | chart_20    | 80      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M137      | lang_50     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M138      | chart_1     | 92      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M139      | closure_15  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M140      | closure_35  | 54      | 94    | 94    | 94    | 94    | 94    | 94    |
-| M141      | closure_103 | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M142      | closure_19  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M143      | closure_87  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M144      | closure_39  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M145      | closure_107 | 81      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M146      | chart_3     | 81      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M147      | closure_56  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M148      | closure_9   | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M149      | closure_29  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M150      | closure_50  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M151      | closure_77  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M152      | closure_97  | 52      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M153      | closure_118 | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M154      | math_4j_47  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M155      | math_4j_79  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M156      | chart_9     | 74      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M157      | chart_13    | 81      | 89    | 89    | 89    | 89    | 89    | 89    |
-| M158      | chart_16    | 71      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M159      | time_3_addDays | 100  | 100   | 100   | 100   | 100   | 100   | 100   |
-| M160      | time_4      | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M161      | time_6      | 16      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M162      | chart_2     | 92      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M163      | lang_10     | 91      | 91    | 91    | 91    | 91    | 91    | 91    |
-| M164      | lang_16     | 97      | 97    | 97    | 97    | 97    | 97    | 97    |
-| M165      | lang_20     | 93      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M166      | lang_29     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M167      | lang_55     | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M168      | math_4j_32  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M169      | math_4j_43  | 97      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M170      | closure_115 | 97      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M171      | chart_24    | 93      | 100   | 100   | 100   | 100   | 100   | 100   |
-| M172      | lang_14     | 96      | 96    | 96    | 96    | 96    | 96    | 96    |
-| M173      | math_4j_15  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M174      | math_4j_64  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M175      | math_4j_66  | 81      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M176      | math_4j_73  | 81      | 95    | 95    | 95    | 95    | 95    | 95    |
-| M177      | closure_17  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| M178      | closure_65  | 100     | 100   | 100   | 100   | 100   | 100   | 100   |
-| Average   |        | 89.46 | 98.97 | 99.07 | 99.07 | 99.07 | 99.07 | 99.07 |
+<table border="1">
+  <tr><th rowspan="2">Method ID</th><th rowspan="2">Bug ID</th><th rowspan="2">OneMoreTest Coverage at Different Training Set Sizes</th><th colspan="7">Training Set Sizes</th>
+  </tr>
+  <tr><th>Initial</th><th>10,000</th><th>100,000</th><th>200,000</th><th>500,000</th><th>700,000</th><th>1M</th>
+  </tr>
+  <tr><td>M1</td><td>chart_5</td><td>69</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M2</td><td>chart_7</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M3</td><td>chart_18</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M4</td><td>chart_21</td><td>74</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M5</td><td>chart_22</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M6</td><td>time_3_addYears</td><td>79</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M7</td><td>time_3_addMonths</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M8</td><td>time_3_addWeeks</td><td>82</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M9</td><td>time_7_parseInto</td><td>90</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M10</td><td>time_7_mutableDateTime</td><td>57</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M11</td><td>time_8</td><td>78</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M12</td><td>time_10</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M13</td><td>time_14_minusMonths</td><td>73</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M14</td><td>time_14_plusMonths</td><td>58</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td></tr>
+  <tr><td>M15</td><td>time_15</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M16</td><td>time_17</td><td>75</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M17</td><td>time_18</td><td>68</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M18</td><td>time_22</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M19</td><td>time_24</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M20</td><td>time_26</td><td>94</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M21</td><td>time_27</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M22</td><td>lang_1</td><td>55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M23</td><td>lang_6</td><td>78</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M24</td><td>lang_7</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M25</td><td>lang_8</td><td>65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M26</td><td>lang_9</td><td>75</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M27</td><td>lang_11</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M28</td><td>lang_12</td><td>50</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M29</td><td>lang_17</td><td>53</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M30</td><td>lang_19</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M31</td><td>lang_21</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M32</td><td>lang_22</td><td>54</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M33</td><td>lang_26</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M34</td><td>lang_27</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M35</td><td>lang_28</td><td>98</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M36</td><td>lang_36</td><td>65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M37</td><td>lang_38</td><td>63</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M38</td><td>lang_39</td><td>81</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M39</td><td>lang_41</td><td>82</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M40</td><td>lang_43</td><td>76</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M41</td><td>lang_44</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M42</td><td>lang_45</td><td>61</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M43</td><td>lang_46</td><td>55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M44</td><td>lang_48</td><td>78</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M45</td><td>lang_49</td><td>86</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M46</td><td>lang_53</td><td>89</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M47</td><td>lang_54</td><td>98</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M48</td><td>lang_57</td><td>98</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M49</td><td>lang_58</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M50</td><td>lang_59</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M51</td><td>lang_61</td><td>96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M52</td><td>lang_64</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M53</td><td>lang_65</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M54</td><td>math_4j_1</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M55</td><td>math_4j_2</td><td>57</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M56</td><td>math_4j_9</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M57</td><td>math_4j_10</td><td>90</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M58</td><td>math_4j_11</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M59</td><td>math_4j_16</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M60</td><td>math_4j_17</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td></tr>
+  <tr><td>M61</td><td>math_4j_21</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M62</td><td>math_4j_26</td><td>86</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M63</td><td>math_4j_27</td><td>77</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M64</td><td>math_4j_30</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M65</td><td>math_4j_31</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M66</td><td>math_4j_33</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M67</td><td>math_4j_34</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M68</td><td>math_4j_41</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M69</td><td>math_4j_42</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M70</td><td>math_4j_48</td><td>87</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M71</td><td>math_4j_49</td><td>90</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M72</td><td>math_4j_53</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M73</td><td>math_4j_58</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M74</td><td>math_4j_59</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M75</td><td>math_4j_62</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M76</td><td>math_4j_63</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M77</td><td>math_4j_65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M78</td><td>math_4j_74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M79</td><td>math_4j_75</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M80</td><td>math_4j_80</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M81</td><td>math_4j_81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M82</td><td>math_4j_90</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M83</td><td>math_4j_91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M84</td><td>math_4j_94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M85</td><td>math_4j_95</td><td>75</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M86</td><td>math_4j_96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M87</td><td>math_4j_97</td><td>90</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td></tr>
+  <tr><td>M88</td><td>math_4j_98</td><td>87</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M89</td><td>math_4j_105</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M90</td><td>math_4j_106</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M91</td><td>closure_3</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M92</td><td>closure_20</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M93</td><td>closure_23</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M94</td><td>closure_26</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M95</td><td>closure_27</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M96</td><td>closure_37</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M97</td><td>closure_40</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M98</td><td>closure_41</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M99</td><td>closure_44</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M100</td><td>closure_57</td><td>96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M101</td><td>closure_58</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M102</td><td>closure_67</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M103</td><td>closure_68</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M104</td><td>closure_71</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M105</td><td>closure_85</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M106</td><td>closure_88</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M107</td><td>closure_91</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M108</td><td>closure_105</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M109</td><td>closure_108</td><td>71</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M110</td><td>closure_109</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M111</td><td>closure_112</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M112</td><td>closure_114</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M113</td><td>closure_116</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M114</td><td>closure_117</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
+  <tr><td>M115</td><td>closure_125</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
+  <tr><td>M116</td><td>closure_126</td><td>93</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M117</td><td>chart_10</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M118</td><td>math_4j_85</td><td>92</td><td>92</td><td>92</td><td>92</td><td>92</td><td>92</td><td>92</td></tr>
+  <tr><td>M119</td><td>closure_62</td><td>91</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M120</td><td>closure_130</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
+  <tr><td>M121</td><td>time_12</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M122</td><td>lang_52</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M123</td><td>math_4j_88</td><td>68</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M124</td><td>closure_133</td><td>95</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M125</td><td>closure_83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M126</td><td>time_13</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M127</td><td>time_9</td><td>87</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M128</td><td>lang_24</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M129</td><td>closure_28</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M130</td><td>lang_33</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M131</td><td>lang_60</td><td>94</td><td>94</td><td>94</td><td>94</td><td>94</td><td>94</td><td>94</td></tr>
+  <tr><td>M132</td><td>lang_51</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M133</td><td>lang_62</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M134</td><td>math_4j_22</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M135</td><td>chart_23</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M136</td><td>chart_20</td><td>80</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M137</td><td>lang_50</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M138</td><td>chart_1</td><td>92</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M139</td><td>closure_15</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M140</td><td>closure_35</td><td>54</td><td>94</td><td>94</td><td>94</td><td>94</td><td>94</td><td>94</td></tr>
+  <tr><td>M141</td><td>closure_103</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M142</td><td>closure_19</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M143</td><td>closure_87</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M144</td><td>closure_39</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M145</td><td>closure_107</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M146</td><td>chart_3</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M147</td><td>closure_56</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M148</td><td>closure_9</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M149</td><td>closure_29</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M150</td><td>closure_50</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M151</td><td>closure_77</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M152</td><td>closure_97</td><td>52</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M153</td><td>closure_118</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M154</td><td>math_4j_47</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M155</td><td>math_4j_79</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M156</td><td>chart_9</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M157</td><td>chart_13</td><td>81</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td></tr>
+  <tr><td>M158</td><td>chart_16</td><td>71</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M159</td><td>time_3_addDays</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M160</td><td>time_4</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M161</td><td>time_6</td><td>16</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M162</td><td>chart_2</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M163</td><td>lang_10</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td></tr>
+  <tr><td>M164</td><td>lang_16</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
+  <tr><td>M165</td><td>lang_20</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M166</td><td>lang_29</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M167</td><td>lang_55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M168</td><td>math_4j_32</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M169</td><td>math_4j_43</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M170</td><td>closure_115</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M171</td><td>chart_24</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M172</td><td>lang_14</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M173</td><td>math_4j_15</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M174</td><td>math_4j_64</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M175</td><td>math_4j_66</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M176</td><td>math_4j_73</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M177</td><td>closure_17</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M178</td><td>closure_65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+ <tr>
+      <td colspan="2">Average</td>
+      <td>89.46</td>
+      <td>98.96</td>
+      <td>99.07</td>
+      <td>99.07</td>
+      <td>99.07</td>
+      <td>99.07</td>
+      <td>99.07</td>
+    </tr>
+  </tbody>
+</table>
