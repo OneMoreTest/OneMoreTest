@@ -1,5 +1,5 @@
 <table border="1">
-  <tr><th rowspan="2">Method ID</th><th rowspan="2">Bug ID</th><th rowspan="2">OneMoreTest Coverage at Different Training Set Sizes</th><th colspan="7">Training Set Sizes</th>
+  <tr><th rowspan="2">Method ID</th><th rowspan="2">Bug ID</th><th colspan="7">Training Set Sizes</th>
   </tr>
   <tr><th>Initial</th><th>10,000</th><th>100,000</th><th>200,000</th><th>500,000</th><th>700,000</th><th>1M</th>
   </tr>
