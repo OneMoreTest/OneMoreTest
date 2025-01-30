@@ -21,7 +21,7 @@ def normalization_array(data):
     # print(max_num,min_num)
     out = []
     for line in data:
-        epsilon = 1e-8  # 非零的很小数
+        epsilon = 1e-8
         temp = [(x - min_num) / (max_num - min_num + epsilon) for x in line]
         out.append(temp)
     return out, max_num, min_num
@@ -72,7 +72,8 @@ def load_array(filename):
             # Remove '$' characters from the line
             line = line.replace('$', '')
             if line.strip() == "ERROR":
-                dataSet.append(np.finfo(float).max)  # 将"null"值替换为0，可以根据需要进行修改
+                # 将 "ERROR" 替换为一个包含单一值的列表
+                dataSet.append([np.finfo(float).max])
             elif line.strip() == "":
                 dataSet.append([np.finfo(float).min])  # Treat empty line as NaN
             else:
@@ -155,33 +156,68 @@ def write_data_to_file(dataSet, output_file):
             f.write(line + "\n")
 
 
+# def load_sequence(filename):
+#     dataSet = []
+#
+#     with open(filename, 'r') as f:
+#         line = f.readline().strip()
+#         while line:
+#             # Check if the line contains 'Infinity$'
+#             if 'Infinity$' in line or "ERROR$" in line:
+#                 # Encode 'Infinity$' as a large positive integer
+#                 encoded_line = [np.finfo(float).max]
+#             else:
+#                 # Encode other characters as their ASCII codes
+#                 encoded_line = [ord(x) for x in line]
+#             dataSet.append(encoded_line)
+#             line = f.readline().strip()
+#
+#     # normalization
+#     dataSet, Max, Min = normalization_array(dataSet)
+#
+#     # padding
+#     max_len = len(max(dataSet, key=lambda x: len(x)))
+#     dataSet = padding_array(dataSet, max_len)
+#     # mask
+#     seq_len = [len(x) for x in dataSet]
+#     dataSet = np.array(dataSet)
+#     dataSet = dataSet.reshape(dataSet.shape[0], max_len)
+#
+#     return dataSet, seq_len, Max, Min
+
 def load_sequence(filename):
     dataSet = []
 
     with open(filename, 'r') as f:
         line = f.readline().strip()
         while line:
-            # Check if the line contains 'Infinity$'
+            # print(f"Processing line: {line}")  # 调试打印每一行
             if 'Infinity$' in line or "ERROR$" in line:
-                # Encode 'Infinity$' as a large positive integer
                 encoded_line = [np.finfo(float).max]
             else:
-                # Encode other characters as their ASCII codes
-                encoded_line = [ord(x) for x in line]
+                try:
+                    # 编码所有字符，包括 # 在内
+                    encoded_line = [ord(x) for x in line]
+                except Exception as e:
+                    print(f"Error processing line: {line}, Error: {e}")
+                    line = f.readline().strip()
+                    continue
             dataSet.append(encoded_line)
             line = f.readline().strip()
+    if not dataSet:
+        raise ValueError(f"No valid data found in {filename}!")
 
-    # normalization
+    # Normalization
     dataSet, Max, Min = normalization_array(dataSet)
 
-    # padding
-    max_len = len(max(dataSet, key=lambda x: len(x)))
+    # Padding
+    max_len = max(len(x) for x in dataSet)
     dataSet = padding_array(dataSet, max_len)
-    # mask
-    seq_len = [len(x) for x in dataSet]
-    dataSet = np.array(dataSet)
-    dataSet = dataSet.reshape(dataSet.shape[0], max_len)
 
+    # Mask
+    seq_len = [len(x) for x in dataSet]
+    dataSet = np.array(dataSet).reshape(dataSet.shape[0], max_len)
+    print(f"Total samples in {filename}: {len(dataSet)}")
     return dataSet, seq_len, Max, Min
 
 
@@ -466,11 +502,11 @@ def load_classification(filename):
         line = f.readline()
         while line:
             data = []
-            if line == 'true$\n':
+            if line == 'true$\n' or line == 'true\n':
                 data.append(1)
             elif line == 'ERROR$\n':
                 data.append(float('inf'))  # 添加正无穷大
-            elif line == 'false$\n':
+            elif line == 'false$\n' or line == 'false\n':
                 data.append(0)
             dataSet.append(data)
             line = f.readline()
@@ -719,7 +755,7 @@ before_func = {
     'math_4j_91': load_M4_before,
     'math_4j_94': load_M4_before,
     'math_4j_95': load_M4_before,
-    'math_4j_96': load_M2_before,
+    'math_4j_96': load_M3_before,
     'math_4j_97': load_M4_before,
     'math_4j_98': load_M2_before,
     'math_4j_105': load_M2_before,
@@ -731,11 +767,17 @@ before_func = {
     'closure_19': load_M3_before,
     'closure_20': load_M3_before,
     'closure_23': load_M3_before,
+    'closure_26': load_M3_before,
+    'closure_27': load_M3_before,
+    'closure_28': load_M3_before,
     'closure_29': load_M3_before,
     'closure_35': load_M3_before,
     'closure_37': load_M3_before,
     'closure_39': load_M3_before,
     'closure_40': load_M3_before,
+    'closure_41': load_M3_before,
+    'closure_44': load_M3_before,
+    'closure_50': load_M4_before,
     'closure_56': load_M3_before,
     'closure_57': load_M3_before,
     'closure_58': load_M3_before,
@@ -749,19 +791,23 @@ before_func = {
     'closure_85': load_M2_before,
     'closure_87': load_M3_before,
     'closure_88': load_M3_before,
-    'closure_91': load_M2_before,
+    'closure_91': load_M11_before,
     'closure_97': load_M3_before,
     'closure_103': load_M3_before,
     'closure_105': load_M4_before,
     'closure_107': load_M3_before,
     'closure_108': load_M4_before,
     'closure_109': load_M3_before,
-    'closure_112': load_M2_before,
+    'closure_112': load_M3_before,
+    'closure_114': load_M3_before,
+    'closure_115': load_M2_before,
+    'closure_116': load_M3_before,
+    'closure_117': load_M3_before,
     'closure_118': load_M11_before,
     'closure_125': load_M3_before,
     'closure_126': load_M11_before,
     'closure_130': load_M2_before,
-    'closure_133': load_M4_before
+    'closure_133': load_M4_before,
 }
 
 after_func = {
@@ -856,7 +902,7 @@ after_func = {
     'math_4j_15': load_M4_after,
     'math_4j_16': load_M4_after,
     'math_4j_17': load_M3_after,
-    'math_4j_21': load_M3_after,
+    'math_4j_21': load_M2_after,
     'math_4j_22': load_M2_after,
     'math_4j_26': load_M3_after,
     'math_4j_27': load_M4_after,
@@ -882,7 +928,7 @@ after_func = {
     'math_4j_73': load_M4_after,
     'math_4j_74': load_M4_after,
     'math_4j_75': load_M4_after,
-    'math_4j_79': load_M4_after,
+    'math_4j_79': load_M3_after,
     'math_4j_80': load_M4_after,
     'math_4j_81': load_M1_after,
     'math_4j_85': load_M3_after,
@@ -890,10 +936,10 @@ after_func = {
     'math_4j_90': load_M4_after,
     'math_4j_91': load_M4_after,
     'math_4j_94': load_M4_after,
-    'math_4j_95': load_M4_after,
-    'math_4j_96': load_M2_after,
+    'math_4j_95': load_M3_after,
+    'math_4j_96': load_M3_after,
     'math_4j_97': load_M1_after,
-    'math_4j_98': load_M4_after,
+    'math_4j_98': load_M3_after,
     'math_4j_105': load_M4_after,
     'math_4j_106': load_M4_after,
     'closure_3': load_M3_after,
@@ -903,11 +949,17 @@ after_func = {
     'closure_19': load_M3_after,
     'closure_20': load_M3_after,
     'closure_23': load_M4_after,
+    'closure_26': load_M3_after,
+    'closure_27': load_M3_after,
+    'closure_28': load_M3_after,
     'closure_29': load_M3_after,
     'closure_35': load_M4_after,
     'closure_37': load_M1_after,
     'closure_39': load_M4_after,
     'closure_40': load_M1_after,
+    'closure_41': load_M3_after,
+    'closure_44': load_M4_after,
+    'closure_50': load_M4_after,
     'closure_56': load_M3_after,
     'closure_57': load_M3_after,
     'closure_58': load_M11_before,
@@ -929,9 +981,13 @@ after_func = {
     'closure_108': load_M3_after,
     'closure_109': load_M3_after,
     'closure_112': load_M3_after,
+    'closure_114': load_M3_after,
+    'closure_115': load_M3_after,
+    'closure_116': load_M3_after,
+    'closure_117': load_M3_after,
     'closure_118': load_M3_after,
     'closure_125': load_M3_after,
     'closure_126': load_M1_after,
     'closure_130': load_M3_after,
-    'closure_133': load_M3_after
+    'closure_133': load_M3_after,
 }
