@@ -1,7 +1,7 @@
 <table border="1">
   <tr><th rowspan="2">Method ID</th><th rowspan="2">Bug ID</th><th colspan="7">OneMoreTest Coverage at Different Training Set Sizes</th>
   </tr>
-  <tr><th>Initial</th><th>10,000</th><th>100,000</th><th>200,000</th><th>500,000</th><th>700,000</th><th>1M</th>
+  <tr><th>Initial (%)</th><th>10,000 (%)</th><th>100,000 (%)</th><th>200,000 (%)</th><th>500,000 (%)</th><th>700,000 (%)</th><th>1M (%)</th>
   </tr>
   <tr><td>M1</td><td>chart_5</td><td>69</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M2</td><td>chart_7</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
