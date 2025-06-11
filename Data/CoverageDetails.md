@@ -167,13 +167,13 @@
   <tr><td>M162</td><td>chart_2</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M163</td><td>lang_10</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td></tr>
   <tr><td>M164</td><td>lang_16</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
-  <tr><td>M165</td><td>lang_20</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M165</td><td>lang_20</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M166</td><td>lang_29</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M167</td><td>lang_55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M168</td><td>math_4j_32</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M169</td><td>math_4j_43</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M170</td><td>closure_115</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M171</td><td>chart_24</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M171</td><td>chart_24</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M172</td><td>lang_14</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
   <tr><td>M173</td><td>math_4j_15</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M174</td><td>math_4j_64</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -183,7 +183,7 @@
   <tr><td>M178</td><td>closure_65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
  <tr>
       <td colspan="2">Average</td>
-      <td>89.46</td>
+      <td>89.56</td>
       <td>98.96</td>
       <td>99.07</td>
       <td>99.07</td>
