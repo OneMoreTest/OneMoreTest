@@ -592,34 +592,34 @@ The evaluation results are presented in the first five columns of Table. The sec
 </tr>
 <tr>
         <th colspan="3"><b>Precision@k</b></th>
-        <th>76.47%</th>
-        <th>78.71%</th>
-        <th>78.08%</th>
+        <th>72.62%</th>
+        <th>74.71%</th>
+        <th>74.12%</th>
         <th>22.03%</th>
         <th>22.16%</th>
         <th>22.67%</th>
-        <th>29.15%</th>
-        <th>33.92%</th>
-        <th>31.97%</th>
-        <th>46.39%</th>
-        <th>46.37%</th>
-        <th>44.10%</th>
+        <th>16.29%</th>
+        <th>33.65%</th>
+        <th>31.96%</th>
+        <th>44.51%</th>
+        <th>46.19%</th>
+        <th>44.08%</th>
         <th>46.63%</th>
         <th>58.65%</th>
         <th>58.70%</th>
     </tr>
     <tr>
         <th colspan="3"><b>Recall@k</b></th>
-        <th>73.03%</th>
-        <th>82.58%</th>
-        <th>87.08%</th>
+        <th>70.79%</th>
+        <th>79.78%</th>
+        <th>83.71%</th>
         <th>22.03%</th>
-        <th>71.12%</th>
+        <th>71.11%</th>
         <th>97.44%</th>
-        <th>29.15%</th>
+        <th>16.29%</th>
         <th>92.13%</th>
-        <th>99.44%</th>
-        <th>43.82%</th>
+        <th>99.40%</th>
+        <th>43.20%</th>
         <th>90.45%</th>
         <th>97.19%</th>
         <th>46.63%</th>
