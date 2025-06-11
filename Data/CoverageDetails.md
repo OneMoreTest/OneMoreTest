@@ -3,7 +3,7 @@
   </tr>
   <tr><th>Initial (%)</th><th>10,000 (%)</th><th>100,000 (%)</th><th>200,000 (%)</th><th>500,000 (%)</th><th>700,000 (%)</th><th>1M (%)</th>
   </tr>
-  <tr><td>M1</td><td>chart_5</td><td>69</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M1</td><td>chart_5</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M2</td><td>chart_7</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M3</td><td>chart_18</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M4</td><td>chart_21</td><td>74</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
@@ -17,12 +17,12 @@
   <tr><td>M12</td><td>time_10</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M13</td><td>time_14_minusMonths</td><td>73</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M14</td><td>time_14_plusMonths</td><td>58</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td></tr>
-  <tr><td>M15</td><td>time_15</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M16</td><td>time_17</td><td>75</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M17</td><td>time_18</td><td>68</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M18</td><td>time_22</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M19</td><td>time_24</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M20</td><td>time_26</td><td>94</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M15</td><td>time_15</td><td>83</td><td>83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M16</td><td>time_17</td><td>75</td><td>75</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M17</td><td>time_18</td><td>68</td><td>68</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M18</td><td>time_22</td><td>92</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M19</td><td>time_24</td><td>93</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M20</td><td>time_26</td><td>94</td><td>94</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M21</td><td>time_27</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M22</td><td>lang_1</td><td>55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M23</td><td>lang_6</td><td>78</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -32,15 +32,15 @@
   <tr><td>M27</td><td>lang_11</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M28</td><td>lang_12</td><td>50</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M29</td><td>lang_17</td><td>53</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M30</td><td>lang_19</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M31</td><td>lang_21</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M30</td><td>lang_19</td><td>86</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M31</td><td>lang_21</td><td>84</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M32</td><td>lang_22</td><td>54</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M33</td><td>lang_26</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M34</td><td>lang_27</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
   <tr><td>M35</td><td>lang_28</td><td>98</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M36</td><td>lang_36</td><td>65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M37</td><td>lang_38</td><td>63</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M38</td><td>lang_39</td><td>81</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M36</td><td>lang_36</td><td>65</td><td>65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M37</td><td>lang_38</td><td>63</td><td>63</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M38</td><td>lang_39</td><td>81</td><td>81</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
   <tr><td>M39</td><td>lang_41</td><td>82</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M40</td><td>lang_43</td><td>76</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M41</td><td>lang_44</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -55,15 +55,15 @@
   <tr><td>M50</td><td>lang_59</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M51</td><td>lang_61</td><td>96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M52</td><td>lang_64</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M53</td><td>lang_65</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M54</td><td>math_4j_1</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M53</td><td>lang_65</td><td>86</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M54</td><td>math_4j_1</td><td>84</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M55</td><td>math_4j_2</td><td>57</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M56</td><td>math_4j_9</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M57</td><td>math_4j_10</td><td>90</td><td>93</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M57</td><td>math_4j_10</td><td>90</td><td>90</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M58</td><td>math_4j_11</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M59</td><td>math_4j_16</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M60</td><td>math_4j_17</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td><td>93</td></tr>
-  <tr><td>M61</td><td>math_4j_21</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M61</td><td>math_4j_21</td><td>84</td><td>84</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M62</td><td>math_4j_26</td><td>86</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
   <tr><td>M63</td><td>math_4j_27</td><td>77</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
   <tr><td>M64</td><td>math_4j_30</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -72,11 +72,11 @@
   <tr><td>M67</td><td>math_4j_34</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M68</td><td>math_4j_41</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M69</td><td>math_4j_42</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M70</td><td>math_4j_48</td><td>87</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M70</td><td>math_4j_48</td><td>87</td><td>87</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
   <tr><td>M71</td><td>math_4j_49</td><td>90</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M72</td><td>math_4j_53</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M73</td><td>math_4j_58</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M74</td><td>math_4j_59</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M74</td><td>math_4j_59</td><td>81</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M75</td><td>math_4j_62</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M76</td><td>math_4j_63</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M77</td><td>math_4j_65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -93,29 +93,29 @@
   <tr><td>M88</td><td>math_4j_98</td><td>87</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M89</td><td>math_4j_105</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M90</td><td>math_4j_106</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M91</td><td>closure_3</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M92</td><td>closure_20</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M91</td><td>closure_3</td><td>92</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M92</td><td>closure_20</td><td>86</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M93</td><td>closure_23</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M94</td><td>closure_26</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M95</td><td>closure_27</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M96</td><td>closure_37</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M97</td><td>closure_40</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M98</td><td>closure_41</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M98</td><td>closure_41</td><td>94</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M99</td><td>closure_44</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M100</td><td>closure_57</td><td>96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M100</td><td>closure_57</td><td>96</td><td>96</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M101</td><td>closure_58</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M102</td><td>closure_67</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M103</td><td>closure_68</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M104</td><td>closure_71</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M104</td><td>closure_71</td><td>86</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M105</td><td>closure_85</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M106</td><td>closure_88</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M107</td><td>closure_91</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M108</td><td>closure_105</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M109</td><td>closure_108</td><td>71</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M110</td><td>closure_109</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M111</td><td>closure_112</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M112</td><td>closure_114</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M113</td><td>closure_116</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M106</td><td>closure_88</td><td>94</td><td>94</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M107</td><td>closure_91</td><td>91</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M108</td><td>closure_105</td><td>91</td><td>91</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M109</td><td>closure_108</td><td>71</td><td>71</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M110</td><td>closure_109</td><td>99</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M111</td><td>closure_112</td><td>74</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M112</td><td>closure_114</td><td>86</td><td>86</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M113</td><td>closure_116</td><td>81</td><td>81</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M114</td><td>closure_117</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
   <tr><td>M115</td><td>closure_125</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
   <tr><td>M116</td><td>closure_126</td><td>93</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
@@ -125,11 +125,11 @@
   <tr><td>M120</td><td>closure_130</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
   <tr><td>M121</td><td>time_12</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M122</td><td>lang_52</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M123</td><td>math_4j_88</td><td>68</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
-  <tr><td>M124</td><td>closure_133</td><td>95</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M123</td><td>math_4j_88</td><td>68</td><td>68</td><td>98</td><td>98</td><td>98</td><td>98</td><td>98</td></tr>
+  <tr><td>M124</td><td>closure_133</td><td>95</td><td>95</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M125</td><td>closure_83</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M126</td><td>time_13</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M127</td><td>time_9</td><td>87</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M127</td><td>time_9</td><td>87</td><td>87</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M128</td><td>lang_24</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M129</td><td>closure_28</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M130</td><td>lang_33</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -138,7 +138,7 @@
   <tr><td>M133</td><td>lang_62</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M134</td><td>math_4j_22</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M135</td><td>chart_23</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M136</td><td>chart_20</td><td>80</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M136</td><td>chart_20</td><td>80</td><td>88</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M137</td><td>lang_50</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M138</td><td>chart_1</td><td>92</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M139</td><td>closure_15</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
@@ -147,49 +147,49 @@
   <tr><td>M142</td><td>closure_19</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M143</td><td>closure_87</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M144</td><td>closure_39</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M145</td><td>closure_107</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
-  <tr><td>M146</td><td>chart_3</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M145</td><td>closure_107</td><td>81</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M146</td><td>chart_3</td><td>81</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M147</td><td>closure_56</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M148</td><td>closure_9</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M149</td><td>closure_29</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M150</td><td>closure_50</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M151</td><td>closure_77</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M152</td><td>closure_97</td><td>52</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
+  <tr><td>M152</td><td>closure_97</td><td>86</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
   <tr><td>M153</td><td>closure_118</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M154</td><td>math_4j_47</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M155</td><td>math_4j_79</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M156</td><td>chart_9</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M157</td><td>chart_13</td><td>81</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td></tr>
-  <tr><td>M158</td><td>chart_16</td><td>71</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M156</td><td>chart_9</td><td>74</td><td>74</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M157</td><td>chart_13</td><td>81</td><td>81</td><td>89</td><td>89</td><td>89</td><td>89</td><td>89</td></tr>
+  <tr><td>M158</td><td>chart_16</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M159</td><td>time_3_addDays</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M160</td><td>time_4</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M161</td><td>time_6</td><td>16</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M162</td><td>chart_2</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M161</td><td>time_6</td><td>16</td><td>16</td><td>75</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M162</td><td>chart_2</td><td>92</td><td>92</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M163</td><td>lang_10</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td><td>91</td></tr>
   <tr><td>M164</td><td>lang_16</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td><td>97</td></tr>
   <tr><td>M165</td><td>lang_20</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M166</td><td>lang_29</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M167</td><td>lang_55</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M168</td><td>math_4j_32</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M169</td><td>math_4j_43</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M170</td><td>closure_115</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M169</td><td>math_4j_43</td><td>97</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
+  <tr><td>M170</td><td>closure_115</td><td>97</td><td>97</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M171</td><td>chart_24</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M172</td><td>lang_14</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td><td>96</td></tr>
   <tr><td>M173</td><td>math_4j_15</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M174</td><td>math_4j_64</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
-  <tr><td>M175</td><td>math_4j_66</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
-  <tr><td>M176</td><td>math_4j_73</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M175</td><td>math_4j_66</td><td>81</td><td>81</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
+  <tr><td>M176</td><td>math_4j_73</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td><td>95</td></tr>
   <tr><td>M177</td><td>closure_17</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   <tr><td>M178</td><td>closure_65</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
  <tr>
       <td colspan="2">Average</td>
-      <td>89.56</td>
-      <td>98.96</td>
-      <td>99.07</td>
-      <td>99.07</td>
-      <td>99.07</td>
-      <td>99.07</td>
-      <td>99.07</td>
+      <td>90.16</td>
+      <td>95.32</td>
+      <td>98.47</td>
+      <td>98.53</td>
+      <td>99.01</td>
+      <td>99.01</td>
+      <td>99.01</td>
     </tr>
   </tbody>
 </table>
